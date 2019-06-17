@@ -14,6 +14,7 @@ client.set("visits", 0);
 
 // Increase and store the number of visits
 app.get("/", (req, res) => {
+    process.exit(0);
     client.get("visits", (err, visits) => {
         let total_visits = parseInt(visits) + 1;
 
