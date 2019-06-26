@@ -1,0 +1,3 @@
+[submodule "projects/frontend/udemy-docker-kubernetes-complete-guide"]
+	path = projects/frontend/udemy-docker-kubernetes-complete-guide
+	url = git@github.com:alexguanga/udemy-docker-kubernetes-complete-guide.git
